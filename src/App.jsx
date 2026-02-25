@@ -1,7 +1,7 @@
-import Header from "./Header"
-import Footer from './Footer'
-import Navbar from "./Navbar";
-import News from "./News";
+import Header from "./Header/Header"
+import Footer from './Footer/Footer'
+import Navbar from "./Navbar/Navbar";
+import News from "./News/News";
 import Table from "./Table";
 import Extra from "./Extra";
 

@@ -1,4 +1,4 @@
-import GridCard from "./components/GridCard"
+import GridCard from "../components/GridCard"
 import './News.css'
 const News = () => {
   return (
