@@ -1,9 +1,11 @@
-const App = () => {
-  return (
-    <div>
-        
-    </div>
-  )
-}
+import Navbar from "./Navbar";
+import News from "./News";
 
-export default App
+export default function App() {
+  return (
+    <>
+      <Navbar />
+      <News/>
+    </>
+  );
+}
