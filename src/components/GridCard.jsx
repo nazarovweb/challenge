@@ -10,7 +10,6 @@ return (
         textAlign: "center"
       }}
     >
-      {/* Header */}
       <h2
         style={{
           fontSize: "28px",
@@ -21,7 +20,6 @@ return (
       >
       </h2>
 
-      {/* Card */}
       <div
         style={{
           width: "340px",
@@ -33,7 +31,6 @@ return (
           transition: "0.3s"
         }}
       >
-        {/* Image */}
         <img
           src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
           alt="article"
@@ -44,7 +41,6 @@ return (
           }}
         />
 
-        {/* Content */}
         <div style={{ padding: "20px" }}>
           <h3
             style={{
@@ -80,7 +76,6 @@ return (
             elementum.
           </p>
 
-          {/* Button */}
           <button
             style={{
               padding: "10px 25px",

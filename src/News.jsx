@@ -4,7 +4,7 @@ const News = () => {
   return (
     <div>
       <h1 style={{textAlign: "center"}}>Latest Articles</h1>
-    <div className="grid">
+    <div className="gridNews">
       <GridCard/>
       <GridCard/>
       <GridCard/>
