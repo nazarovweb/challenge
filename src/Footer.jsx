@@ -2,7 +2,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer className = 'footer'>
-        <h2 className = 'footer_title'>Folish Devoloper</h2>
+        <h2 className = 'footer_title'>Folish Developer</h2>
         <p className = 'footer_text'>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident neque, libero ab, sequi iusto soluta labore, veritatis eos saepe ea eveniet repellendus est error. Atque perferendis architecto sed eveniet cum.
         </p>
