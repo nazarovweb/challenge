@@ -2,9 +2,9 @@ import React from "react";
 import "./Header.css";
 
 const hits = [
-  { id: 1, title: "Pop Hits", subtitle: "Top 2026", accent: "accent1" },
-  { id: 2, title: "Rap Vibe", subtitle: "Hot Beats", accent: "accent2" },
-  { id: 3, title: "Dance Mix", subtitle: "Energy", accent: "accent3" },
+  { id: 1, title: "Pop Hits", subtitle: "Top 2026", accent: "accent1",img:"https://www.rollingstone.com/wp-content/uploads/2018/10/elle-king-profile.jpg?w=1581&h=1054&crop=1" },
+  { id: 2, title: "Rap Vibe", subtitle: "Hot Beats", accent: "accent2",img:"https://upload.wikimedia.org/wikipedia/commons/7/76/Taylor_Swift_-_Speak_Now_World_Tour_Sydney_2012.jpg" },
+  { id: 3, title: "Dance Mix", subtitle: "Energy", accent: "accent3",img:"https://t3.ftcdn.net/jpg/06/70/44/18/360_F_670441873_17SBsKmPpYxumrgdSR5U6yItmmtWWmJo.jpg" },
 ];
 
 export default function Header() {
@@ -51,7 +51,7 @@ export default function Header() {
               <div className="cards">
                 {hits.map((h) => (
                   <div key={h.id} className="card">
-                    <div className={`cardArt ${h.accent}`} />
+                    <div className={`cardArt ${h.accent}`} style={{ backgroundImage: `url(${h.img})` }} />
                     <div className="cardText">
                       <p className="cardTitle">{h.title}</p>
                       <p className="cardSub">{h.subtitle}</p>
@@ -67,7 +67,7 @@ export default function Header() {
             <div className="phoneWrap">
               <div className="phoneInner">
                 <div className="personWrap">
-                  <div className="personCircle" />
+                
                 </div>
 
                 <div className="badge">
@@ -86,12 +86,6 @@ export default function Header() {
                   <StatBox label="Plays" value="54k" />
                 </div>
               </div>
-            </div>
-
-            <div className="dots" aria-hidden="true">
-              {Array.from({ length: 6 }).map((_, i) => (
-                <span key={i} className="dot" style={{ opacity: 0.25 + i * 0.08 }} />
-              ))}
             </div>
           </div>
         </div>

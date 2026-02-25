@@ -212,6 +212,10 @@
   height: 80px;
   width: 100%;
   border-radius: 14px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 
 .accent1 {
@@ -291,13 +295,14 @@
   inset: 0;
   display: grid;
   place-items: center;
+  background: url(https://avatars.mds.yandex.net/get-shedevrum/11476535/e78f0df0baea11ee89bbc62cc9ee863f/orig) no-repeat center / cover;
 }
 
 .personCircle {
   width: 78%;
   height: 78%;
   border-radius: 999px;
-  background: linear-gradient(135deg, rgba(217,70,239,0.35), rgba(168,85,247,0.25), rgba(99,102,241,0.30));
+  background: linear-gradient(135deg, rgba(217,70,239,0.35), rgba(168,85,247,0.25), rgba(99,102,241,0.30)) url(https://avatars.mds.yandex.net/get-shedevrum/11476535/e78f0df0baea11ee89bbc62cc9ee863f/orig) no-repeat center / cover;
   filter: blur(1px);
 }
 
