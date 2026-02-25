@@ -137,20 +137,23 @@ export default function Extra() {
           flexWrap: "wrap"
         }}
       >
-        {["Pepsi", "Starbucks", "Twitch", "More customers"].map(
+        {["https://www.freepnglogos.com/uploads/pepsi-png-logo/pepsi-logo-pepsi-symbol-meaning-history-png-logo-3.png", "https://i.pinimg.com/736x/51/b9/23/51b923f0f86c47b7ccb3dd01e927a5ef.jpg", "https://static.vecteezy.com/system/resources/previews/018/930/502/non_2x/twitch-logo-twitch-icon-transparent-free-png.png", "More customers"].map(
           (item, index) => (
             <div
               key={index}
               style={{
-                background: "#fff",
-                padding: "20px 40px",
+                background: `url(${item}) no-repeat center / contain`,
                 borderRadius: "12px",
+                padding: "20px 30px",
                 boxShadow: "0 10px 25px rgba(0,0,0,0.05)",
                 fontWeight: "600",
-                color: "#666"
+                color: "#bac613",
+                width: "190px",
+                height: "60px",
               }}
             >
-              {item}
+
+              {item.startsWith("http") ? "" : item}
             </div>
           )
         )}
