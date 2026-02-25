@@ -1,11 +1,13 @@
 import Footer from './Footer'
+import Navbar from "./Navbar";
+import News from "./News";
 
-const App = () => {
+export default function App() {
   return (
-    <div>
-        <Footer/>
-    </div>
-  )
+    <>
+      <Navbar />
+      <News/>
+      <Footer/>
+    </>
+  );
 }
-
-export default App
