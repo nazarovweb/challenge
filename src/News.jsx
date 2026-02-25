@@ -1,6 +1,15 @@
+import GridCard from "./components/GridCard"
+import './News.css'
 const News = () => {
- return (
-    <div>News</div>
+  return (
+    <div>
+      <h1 style={{textAlign: "center"}}>Latest Articles</h1>
+    <div className="grid">
+      <GridCard/>
+      <GridCard/>
+      <GridCard/>
+    </div>
+     </div>
   )
 }
 

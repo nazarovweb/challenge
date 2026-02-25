@@ -1,14 +1,19 @@
-import Table from "./Table"
-import Extra from "./Extra"
+import Header from "./Header"
+import Footer from './Footer'
+import Navbar from "./Navbar";
+import News from "./News";
+import Table from "./Table";
+import Extra from "./Extra";
 
-const App = () => {
+export default function App() {
   return (
-    <div>
-        <Table />
-        <Extra />
-      
-    </div>
-  )
+    <>
+      <Navbar />
+      <Header />
+      <Table />
+      <Extra />
+      <News />
+      <Footer />
+    </>
+  );
 }
-
-export default App
