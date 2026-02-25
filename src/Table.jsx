@@ -5,8 +5,9 @@ export default function Table() {
       style={{
         display: "flex",
         justifyContent: "center",
-        marginTop: "80px",
-        fontFamily: "Arial, sans-serif"
+        marginTop: "120px",
+        fontFamily: "Arial, sans-serif",
+        marginBottom: "120px"
       }}
     >
       <table

@@ -3,7 +3,7 @@ import './News.css'
 const News = () => {
   return (
     <div>
-      <h1 style={{textAlign: "center"}}>Latest Articles</h1>
+      <h1 style={{textAlign: "center", marginTop: "40px", marginBottom: "10px"}}>Latest Articles</h1>
     <div className="gridNews">
       <GridCard/>
       <GridCard/>
