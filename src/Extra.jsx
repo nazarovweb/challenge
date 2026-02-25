@@ -11,7 +11,6 @@ export default function Extra() {
         overflow: "hidden"
       }}
     >
-      {/* Decorative circles */}
       <div
         style={{
           position: "absolute",
@@ -37,7 +36,6 @@ export default function Extra() {
         }}
       />
 
-      {/* Title */}
       <h2
         style={{
           textAlign: "center",
@@ -52,7 +50,6 @@ export default function Extra() {
         Take theirs...
       </h2>
 
-      {/* Testimonial Card */}
       <div
         style={{
           maxWidth: "900px",
@@ -65,7 +62,6 @@ export default function Extra() {
           overflow: "hidden"
         }}
       >
-        {/* Image Side */}
         <div
           style={{
             width: "40%",
@@ -92,7 +88,6 @@ export default function Extra() {
           />
         </div>
 
-        {/* Text Side */}
         <div
           style={{
             width: "60%",
@@ -133,7 +128,6 @@ export default function Extra() {
         </div>
       </div>
 
-      {/* Logos */}
       <div
         style={{
           marginTop: "60px",
