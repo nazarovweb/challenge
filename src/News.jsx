@@ -1,5 +1,5 @@
 const News = () => {
-  return (
+ return (
     <div>News</div>
   )
 }
